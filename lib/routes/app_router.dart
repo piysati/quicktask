@@ -14,7 +14,7 @@ Route onGenerateRoute(RouteSettings routeSettings) {
   switch (routeSettings.name) {
     case Pages.initial:
       return MaterialPageRoute(
-        builder: (context) => const LoginPage(),
+        builder: (context) => const LoginPage()
       );
     case Pages.signUp:
       return MaterialPageRoute(
